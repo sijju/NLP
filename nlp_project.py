@@ -101,7 +101,7 @@ def main():
               
       if choice == 'Summazrize via URL':
           st.subheader("Summarize Your URL")
-          raw_url = st.text_input("Enter URL"," ")
+          raw_url = st.text_input("Enter URL","Paste Here")
           
           result = get_text(raw_url)
           summary_choice = st.selectbox("Summary Choice" , ["Sumy Lex rank","NLTK"])
