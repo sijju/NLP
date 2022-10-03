@@ -1,0 +1,4 @@
+nltk
+sumy
+streamlit
+spacy
