@@ -2,5 +2,4 @@ nltk
 sumy
 streamlit
 spacy
-urllib
 bs4
